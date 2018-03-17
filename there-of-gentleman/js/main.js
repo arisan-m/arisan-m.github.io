@@ -134,7 +134,7 @@
 	img.src = 'img/bg.jpg';
 	img.addEventListener('load', function () {
 		//grassのインスタンスを作りxyを渡す
-		grass = new Grass(100, 100);
+		grass = new Grass(-100, 100);
 		//groundのインスタンスを作る
 		ground = new Ground();
 		//mountainのインスタンスを作る位置決める、yの始点150
